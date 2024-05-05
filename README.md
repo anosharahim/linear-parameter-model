@@ -17,6 +17,9 @@ This project aims to model the yearly temperature variations in Yosemite Village
 4. Conduct linear regression using the expanded representation of the input data.
 5. Evaluate the model performance using R-squared metric.
 
+<img width="560" alt="image" src="https://github.com/anosharahim/linear-parameter-model/assets/55622095/4af49084-e24a-44a5-9549-1f6795b4e6f5">
+
+
 ## Hyperparameter Tuning
 
 - Number of Centroids:
