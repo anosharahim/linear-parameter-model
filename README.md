@@ -1,6 +1,6 @@
 # Predicting Yosemite Village Weather
 
-This project aims to model the yearly temperature variations in Yosemite Village, California, using Radial Basis Functions (RBFs) and Linear Parameter Modeling.
+This project models the yearly temperature variations in Yosemite Village, California, using Radial Basis Functions (RBFs) and Linear Parameter Modeling.
 
 ## Techniques Used
 
@@ -14,7 +14,7 @@ This project aims to model the yearly temperature variations in Yosemite Village
 3. Map input dimensions to a higher-dimensional space using RBFs.
    - Randomly select centroids and tune the number of centroids as a hyperparameter.
    - Set the width of the centroids relative to the surrounding data points using a heuristic (median of pairwise distances).
-4. Conduct linear regression using the expanded representation of the input data.
+4. Conduct linear regression and ridge regression (with L2 regularization) using the expanded representation of the input data.
 5. Evaluate the model performance using R-squared metric.
 
 <img width="560" alt="image" src="https://github.com/anosharahim/linear-parameter-model/assets/55622095/4af49084-e24a-44a5-9549-1f6795b4e6f5">
